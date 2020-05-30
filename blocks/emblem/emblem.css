@@ -1,0 +1,45 @@
+
+.emblem {
+    width: 1184px;
+    margin: 82px auto 0px;
+}
+
+.emblem__title {
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 45px;
+    color: #FFFFFF;
+    width: 436px;
+    margin: 0px auto 82px 0px;
+
+}
+
+.emblem__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emblem__item {
+    width: 208px;
+    height: 310px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center
+}
+
+.emblem__image {
+    height: 226px;
+    margin-bottom: 35px;
+}
+
+.emblem__city {
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #CCCCCC;
+    margin: 0px auto;
+    font-weight: bold;
+}

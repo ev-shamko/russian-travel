@@ -1,0 +1,161 @@
+.intro {
+    margin: 0 auto;
+    padding-top: 82px;
+    max-width: 985px;
+}
+
+.intro__title {
+    font-family: Inter;
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 683px;
+    color: #FFFFFF;
+    margin: 0 0 34px;
+    font-style: normal;
+    font-weight: 750;
+}
+
+.intro__subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 37px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin: 0px auto 22px 0px;
+
+}
+
+.intro__content-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px;
+    max-width: 984px;
+
+    /*align-items: baseline;   добавляет в intro__masthead какой-то отступ сверху, похожий на margin-top 1px; не понимаю почему беситбеситбеситотчаяние*/
+}
+
+.intro__text {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 683px;
+    margin: 0px;
+}
+
+.intro__masthead {
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 283px;
+    margin-top: 0px;
+    margin-left: 18px;
+    margin-bottom: 0px;
+}
+
+.intro__masthead_bold {
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.intro_text-bold {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0;
+        max-width: 928px;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+    
+    }    
+}
+
+@media screen and (max-width: 503px) {
+    .intro__title {
+        font-size: 42px;
+        line-height: 46px;
+    
+    }    
+}
+
+@media screen and (max-width: 375px) {
+    .intro {
+        padding-top: 64px;
+    }    
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .intro__title {
+        max-width: 250px;       
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 0 29px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+         max-width: 691px;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 720px;            
+        font-size: 14px;
+        line-height: 24px;            
+    }        
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text {
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 27px;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 27px;
+    }       
+}
+
+/* @media screen and (max-width: 425px) {
+    .intro {
+        padding-top: 64px;
+        max-width: 343px;
+    
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+   
+    .intro__content-row {
+        display: flex;
+        justify-content: space-between;
+        max-width: 425px;
+        margin: 0 0 32px;    
+    }
+} */
+

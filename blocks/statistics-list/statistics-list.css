@@ -1,0 +1,43 @@
+.statistics-list {
+    margin: 12px auto 0px 0px; 
+    padding: 0;
+    list-style: none; 
+}
+
+.statistics-list__text {
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.statistics-list__text_bold {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) { 
+    .statistics-list {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .statistics-list {
+        margin-top: 25px;
+    }
+}
+
+/* это задел на будущее, нужно посмотреть, придётся ли тут подгонять величины под макет */
+@media screen and (max-width: 375px) { 
+    .statistics-list {
+        margin-top: 35px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 425px) { 
+    .statistics-list__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
